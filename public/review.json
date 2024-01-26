@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Alice Johnson",
+    "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "details": "Excellent service! I love my new haircut.",
+    "rating": 5,
+    "profession": "Marketing Specialist"
+  },
+  {
+    "name": "John Smith",
+    "image": "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1412",
+    "details": "Had a wonderful spa day. The staff was attentive and professional.",
+    "rating": 4.5,
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Emily Davis",
+    "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "details": "Amazing massage experience. I highly recommend it!",
+    "rating": 5,
+    "profession": "Yoga Instructor"
+  },
+  {
+    "name": "Emily Davi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJzEaxLN-jGRYYUO65pWu7Q9GXoNt4LUSSA&usqp=CAU",
+    "details": "Amazing massage experience. I highly recommend it!",
+    "rating": 5,
+    "profession": "Yoga Instructor"
+  }
+]

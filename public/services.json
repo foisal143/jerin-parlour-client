@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Anti Age Face Treatment",
+    "price": 199,
+    "details": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
+    "image": "https://png.pngtree.com/png-clipart/20220719/original/pngtree-hair-salon-logo-png-image_8386581.png"
+  },
+  {
+    "name": "Hair Color & Styleing",
+    "price": 99,
+    "details": "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+    "image": "https://st4.depositphotos.com/4529029/20522/v/450/depositphotos_205227222-stock-illustration-set-of-simple-realistic-natural.jpg"
+  },
+  {
+    "name": "Skin Care Treatment",
+    "price": 299,
+    "details": "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
+    "image": "https://thumbs.dreamstime.com/b/woman-lying-back-massage-therapist-massaging-her-face-colorful-cartoon-character-facial-treatments-isolated-white-90379771.jpg"
+  }
+]

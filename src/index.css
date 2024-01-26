@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.btn-coustom {
+  @apply px-8 py-2 rounded-md bg-[#F63E7B] hover:bg-pink-500 transition-all duration-200 text-white;
+}
+
+a.active {
+  color: black;
+}
+
+.pink {
+  color: #f63e7b;
+}
+.dashboard a.active {
+  color: #f63e7b;
+}
