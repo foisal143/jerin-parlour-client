@@ -13,6 +13,7 @@ import OrderList from '../pages/DashboardAdmin/OrderList/OrderList';
 import AddService from '../pages/DashboardAdmin/AddService/AddService';
 import ManageService from '../pages/DashboardAdmin/ManageService/ManageService';
 import MakeAdmin from '../pages/DashboardAdmin/MakeAdmin/MakeAdmin';
+import AdminRoute from '../AdminRoute/AdminRoute';
 
 const router = createBrowserRouter([
   {
@@ -76,19 +77,36 @@ const router = createBrowserRouter([
       // admin route
       {
         path: 'order-list',
-        element: <OrderList />,
+        element: (
+          <AdminRoute>
+            <OrderList />
+          </AdminRoute>
+        ),
       },
       {
         path: 'add-service',
-        element: <AddService />,
+        element: (
+          <AdminRoute>
+            {' '}
+            <AddService />
+          </AdminRoute>
+        ),
       },
       {
         path: 'manage-service',
-        element: <ManageService />,
+        element: (
+          <AdminRoute>
+            <ManageService />
+          </AdminRoute>
+        ),
       },
       {
         path: 'make-admin',
-        element: <MakeAdmin></MakeAdmin>,
+        element: (
+          <AdminRoute>
+            <MakeAdmin></MakeAdmin>
+          </AdminRoute>
+        ),
       },
     ],
   },

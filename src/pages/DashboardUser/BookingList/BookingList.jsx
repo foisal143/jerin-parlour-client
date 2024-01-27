@@ -2,7 +2,7 @@ import useBookings from '../../../hooks/useBookings';
 
 const BookingList = () => {
   const [bookings] = useBookings();
-  console.log(bookings);
+
   return (
     <section>
       <h3 className="text-3xl pb-5 font-bold font-[Poppins]">

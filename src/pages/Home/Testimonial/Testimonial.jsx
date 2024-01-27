@@ -55,10 +55,10 @@ const Testimonial = () => {
                     src={review.image}
                     alt=""
                   />
-                  <p>
+                  <div>
                     <h5 className="text-2xl font-bold">{review.name}</h5>
                     <p className="font-semibold">{review.profession}</p>
-                  </p>
+                  </div>
                 </div>
                 <p className="text-gray-500">{review.details}</p>
                 <Rating

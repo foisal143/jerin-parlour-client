@@ -1,21 +1,23 @@
 import { useContext } from 'react';
 import { AuthContext } from '../AuthProvaider/AuthProvaider';
-import { Navigate, useLocation } from 'react-router-dom';
-const Privateroute = ({ children }) => {
-  const { user, loader } = useContext(AuthContext);
-  const location = useLocation();
+import { Navigate } from 'react-router-dom';
+import useAdmin from '../hooks/useAdmin';
 
-  if (loader) {
+const AdminRoute = ({ children }) => {
+  const { user, loader } = useContext(AuthContext);
+  const [isAdmin, isLoading] = useAdmin();
+
+  if (loader || isLoading) {
     return (
       <div className="h-[80vh] flex justify-center items-center">
         <span className="loading loading-ball loading-lg"></span>
       </div>
     );
   }
-  if (user) {
+  if (user && isAdmin) {
     return children;
   }
-  return <Navigate to="/login" state={location} replace></Navigate>;
+  return <Navigate to="/"></Navigate>;
 };
 
-export default Privateroute;
+export default AdminRoute;
